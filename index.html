@@ -16,130 +16,146 @@
     <main>
         <div class="contenedor">
             <header role="banner">
-                <nav role="navigation">
-                    <div id="menuToggle">
-                        <input type="checkbox" />
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <ul id="menu">
-                          <a href="#" class="a_menu"><li>Home</li></a>
-                          <a href="#" class="a_menu"><li>News</li></a>
-                          <a href="#" class="a_menu"><li>Tutorials</li></a>
-                          <a href="#" class="a_menu"><li>Suscription</li></a>
-                    
-                        </ul>
-                      </div>
-                </nav>
-
                 <div class="logo">
                     <img src="images/logo_white.png" alt="Logo">
-                    <h1>Full-Stack Developers News</h1>
+                    <h1>Full-Stack Web Development News</h1>
                 </div>
-                
-               
-
+                <div class="search">
+                    <input type="search" id="site-search" aria-label="Search through site content" placeholder="Buscar">
+                    <label for="site-search"><i class="fas fa-search" id="search-icon"></i></label>
+                </div>
             </header>
 
+
             <div class="article_aside">
+                <div class="nav_desktop">
+                    <nav role="navigation" class="nav_desk">
+                        <input type="checkbox" class="check" id="check" name="check" />
+    
+                        <ul id="menu" class="menu">
+                            <a href="#" class="a_menu">
+                                <li>Home</li>
+                            </a>
+                            <a href="#" class="a_menu">
+                                <li>News</li>
+                            </a>
+                            <a href="#" class="a_menu">
+                                <li>Tutorials</li>
+                            </a>
+                            <a href="#" class="a_menu">
+                                <li>Suscription</li>
+                            </a>
+                        </ul>
+
+                    </nav>
+                </div>
+
+                <div class="nav_mobile">
+                    <nav role="navigation" class="nav">
+                      
+                        <a href="/" class="logo_nav">Menu</a>
+                        <input class="menu-btn" type="checkbox" id="menu-btn" />
+                        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+                        <ul class="menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Tutorials</a></li>
+                            <li><a href="#">Suscription</a></li>
+                        </ul>
+                    </nav>
+
+
+                </div>
+
                 <section class="news" role="note">
 
                     <article class="article">
                         <img src="images/2.jpg" alt="">
                         <div class="autor">
-                            <span class="author-name">Juliana Quiroz <span>-</span> </span>
+                            <span class="author-name">Diana P. Pineda Prada<span>-</span> </span>
+
                             <span class="post-date"><time class="date" datetime="2020-05-11">May 11, 2020</time></span>
                         </div>
-                        <h2>The future of CSS features in 2020</h2>
+                        <h2>Spread the FullStack Love</h2>
                         <input type="checkbox" class="read-more-state" id="post-1" />
 
-                        <p class="read-more-wrap">The “State of CSS 2019” report offers a glimpse into the future of
-                            frontend development — more specifically, the future of CSS. 
-                            <span class="read-more-target">In this article, we’ll
-                                review the report, break down
-                                key features of CSS, and explore how they are being perceived in the CSS community.
-                                Then, we’ll use these insights to speculate about what’s to come in the world of
-                                CSS.</span>
+                        <p class="read-more-wrap">Tell your friends and colleagues about FullStack News and help us
+                            spread the best FullStack gems every week!
+                            <span class="read-more-target">We hand pick what we believe are the best articles and posts
+                                around the web and then we leave the task of extracting the best 7 every week to ranking
+                                algorithm that we developed.</span>
                         </p>
 
                         <label for="post-1" class="read-more-trigger"></label>
 
                     </article>
                     <article class="article">
-                        <img src="images/2.jpg" alt="">
+                        <img src="images/3.jpg" alt="">
                         <div class="autor">
-                            <span class="author-name">Alejandro Hincapie Lopez<span>-</span> </span>
+                            <span class="author-name">Alejandro Hincapie<span>-</span> </span>
                             <span class="post-date"><time class="date" datetime="2020-05-11">May 11, 2020</time></span>
                         </div>
-                        <h2>The future of CSS features in 2020</h2>
+                        <h2>Spread the FullStack Love</h2>
                         <input type="checkbox" class="read-more-state" id="post-2" />
 
-                        <p class="read-more-wrap">The “State of CSS 2019” report offers a glimpse into the future of
-                            frontend development — more specifically, the future of CSS. 
-                            <span class="read-more-target">In this article, we’ll
-                                review the report, break down
-                                key features of CSS, and explore how they are being perceived in the CSS community.
-                                Then, we’ll use these insights to speculate about what’s to come in the world of
-                                CSS.</span>
+                        <p class="read-more-wrap">Tell your friends and colleagues about FullStack News and help us
+                            spread the best FullStack gems every week!
+                            <span class="read-more-target">We hand pick what we believe are the best articles and posts
+                                around the web and then we leave the task of extracting the best 7 every week to ranking
+                                algorithm that we developed.</span>
                         </p>
 
                         <label for="post-2" class="read-more-trigger"></label>
                     </article>
                     <article class="article">
-                        <img src="images/2.jpg" alt="">
+                        <img src="images/4.jpg" alt="">
                         <div class="autor">
                             <span class="author-name">Ruth Melissa<span>-</span> </span>
                             <span class="post-date"><time class="date" datetime="2020-05-11">May 11, 2020</time></span>
                         </div>
-                        <h2>The future of CSS features in 2020</h2>
+                        <h2>Spread the FullStack Love</h2>
                         <input type="checkbox" class="read-more-state" id="post-3" />
 
-                        <p class="read-more-wrap">The “State of CSS 2019” report offers a glimpse into the future of
-                            frontend development — more specifically, the future of CSS. 
-                            <span class="read-more-target">In this article, we’ll
-                                review the report, break down
-                                key features of CSS, and explore how they are being perceived in the CSS community.
-                                Then, we’ll use these insights to speculate about what’s to come in the world of
-                                CSS.</span>
+                        <p class="read-more-wrap">Tell your friends and colleagues about FullStack News and help us
+                            spread the best FullStack gems every week!
+                            <span class="read-more-target">We hand pick what we believe are the best articles and posts
+                                around the web and then we leave the task of extracting the best 7 every week to ranking
+                                algorithm that we developed.</span>
                         </p>
                         <label for="post-3" class="read-more-trigger"></label>
                     </article>
                     <article class="article">
-                        <img src="images/2.jpg" alt="">
+                        <img src="images/5.jpg" alt="">
                         <div class="autor">
-                            <span class="author-name">Juan Esteban Serna Gómez <span>-</span> </span>
+                            <span class="author-name">Juan Esteban Serna<span>-</span> </span>
                             <span class="post-date"><time class="date" datetime="2020-05-11">May 11, 2020</time></span>
                         </div>
-                        <h2>The future of CSS features in 2020</h2>
+                        <h2>Spread the FullStack Love</h2>
                         <input type="checkbox" class="read-more-state" id="post-4" />
 
-                        <p class="read-more-wrap">The “State of CSS 2019” report offers a glimpse into the future of
-                            frontend development — more specifically, the future of CSS. 
-                            <span class="read-more-target">In this article, we’ll
-                                review the report, break down
-                                key features of CSS, and explore how they are being perceived in the CSS community.
-                                Then, we’ll use these insights to speculate about what’s to come in the world of
-                                CSS.</span>
+                        <p class="read-more-wrap">Tell your friends and colleagues about FullStack News and help us
+                            spread the best FullStack gems every week!
+                            <span class="read-more-target">We hand pick what we believe are the best articles and posts
+                                around the web and then we leave the task of extracting the best 7 every week to ranking
+                                algorithm that we developed.</span>
                         </p>
 
                         <label for="post-4" class="read-more-trigger"></label>
                     </article>
                     <article class="article">
-                        <img src="images/2.jpg" alt="">
+                        <img src="images/6.jpg" alt="">
                         <div class="autor">
-                            <span class="author-name">Diana P. Pineda Prada<span>-</span> </span>
+                            <span class="author-name">Juliana Quiroz <span>-</span> </span>
                             <span class="post-date"><time class="date" datetime="2020-05-11">May 11, 2020</time></span>
                         </div>
-                        <h2>The future of CSS features in 2020</h2>
+                        <h2>Spread the FullStack Love</h2>
                         <input type="checkbox" class="read-more-state" id="post-5" />
 
-                        <p class="read-more-wrap">The “State of CSS 2019” report offers a glimpse into the future of
-                            frontend development — more specifically, the future of CSS. 
-                            <span class="read-more-target">In this article, we’ll
-                                review the report, break down
-                                key features of CSS, and explore how they are being perceived in the CSS community.
-                                Then, we’ll use these insights to speculate about what’s to come in the world of
-                                CSS.</span>
+                        <p class="read-more-wrap">Tell your friends and colleagues about FullStack News and help us
+                            spread the best FullStack gems every week!
+                            <span class="read-more-target">We hand pick what we believe are the best articles and posts
+                                around the web and then we leave the task of extracting the best 7 every week to ranking
+                                algorithm that we developed.</span>
                         </p>
 
                         <label for="post-5" class="read-more-trigger"></label>
@@ -149,7 +165,7 @@
                 </section>
 
                 <aside>
-                  
+
                     <div class="widget">
                         <div class="div_imagen"><img src="images/htlm5.png" alt="Logo" class="imagen"></div>
                     </div>
@@ -166,13 +182,12 @@
             </div>
             <footer>
                 <section class="links">
-                    <a href="#">Juliana Quiroz</a>
+                    <a href="#">Diana P. Pineda Prada</a>
                     <a href="#">Alejandro Hincapie</a>
-                    <a href="#">Ruth Melissa</a>
-                    <a href="#">Juan Serna</a>
-                    <a href="#">Diana Pineda</a>
+                    <a href="#">Ruth Melissa Jimenez</a>
+                    <a href="#">Juan Esteban Serna</a>
+                    <a href="#">Juliana Quiroz</a>
                 </section>
-
 
             </footer>
         </div>
